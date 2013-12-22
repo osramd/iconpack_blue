@@ -166,7 +166,7 @@ public class Main extends SherlockFragmentActivity {
                 break;
             case R.id.donateButton:
 				Intent donate = new Intent(Intent.ACTION_VIEW).setData(Uri.parse
-						("http://bit.ly/YWwhWu"));
+						("http"));
         		startActivity(donate);
                 break;
         }

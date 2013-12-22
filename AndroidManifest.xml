@@ -98,7 +98,7 @@
                 ** and end to enable it. Note: If you're using Apex, you will still see the list 
                 ** of wallpapers by selecting Apex Wallpapers 
                 -->
-                <!-- <action android:name="android.intent.action.SET_WALLPAPER" /> -->
+                <action android:name="android.intent.action.SET_WALLPAPER" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
